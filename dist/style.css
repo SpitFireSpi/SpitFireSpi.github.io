@@ -363,7 +363,7 @@ button:hover, .button:hover {
 
 .hero__image {
   position: inherit;
-  background-image: url("/images/LogoHeads.png");
+  background-image: url("/assets/images/LogoHeads.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -462,15 +462,15 @@ button:hover, .button:hover {
 }
 
 .feature__img.sc {
-  background-image: url("/images/Shawn C.png");
+  background-image: url("/assets/Images/Shawn C.png");
 }
 
 .feature__img.jk {
-  background-image: url("/images/Jay K.png");
+  background-image: url("/assets/Images/Jay K.png");
 }
 
 .feature__img.jl {
-  background-image: url("/images/Juan L.png");
+  background-image: url("/assets/images/Juan L.png");
 }
 
 .feature__title {
