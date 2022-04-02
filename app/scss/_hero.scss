@@ -1,0 +1,35 @@
+.hero {
+    background-color: $verylightgrey;
+
+    .container {
+        @include breakpoint-up(large){
+            display: flex;
+            align-items: center;
+            padding-right: 2rem;
+        }
+    }
+
+    &__image {
+        position: inherit;
+        background-image: url('/images/LogoHeads.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 12rem;
+
+        @include breakpoint-up(large){
+            flex: 3;
+            order: 2;
+        }
+    }
+
+    &__text {
+        text-align: center;
+        color: $copper;
+
+        @include breakpoint-up(large){
+            flex: 2;
+            order: 1;
+        }
+    }
+}
