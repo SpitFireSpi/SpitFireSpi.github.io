@@ -1,0 +1,98 @@
+.podcasts {
+    width: 50rem;
+    margin: 1.875rem auto;
+
+    @include breakpoint-down(small){
+        width: 100%;
+        padding: 1.5rem;
+    }
+}
+
+.podcast {
+    background-image: linear-gradient($copper, transparent);
+    padding: 1.875rem;
+    border-radius: .1875rem;
+
+    &__episode-title {
+        font-size: 1.75rem;
+        font-weight: bold;
+        line-height: 1.25;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        color: $redbrown;
+
+
+        @include breakpoint-up(medium){
+        padding-left: 13.5rem;
+        font-size: 2rem;
+        }
+    }
+
+    &__show-name {
+        margin-top: 1.5rem;
+        text-transform: uppercase;
+        font-size: .6875rem;
+        color: $copper;
+
+        i {
+            color: $sienna;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: capitalize;
+            margin-left: .625rem;
+        }
+
+        @include breakpoint-up(medium){
+        padding-left: 15rem;
+        font-size: 1.1rem;
+        }
+
+        @include breakpoint-down(small){
+            padding-left: 8.5rem;
+        }
+    }
+
+    &__controls {
+
+        display: flex;
+        margin: 2rem -1.875rem -1.875rem -1.875rem;
+        padding: 0rem 1.875rem 1.875rem 1.875rem;
+        justify-content: space-between;
+        border-bottom-left-radius: .1875rem;
+        border-bottom-right-radius: .1875rem;
+
+    }
+
+    .artwork {
+        
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        transform: translateY(-4.375rem);
+
+        >img {
+            border-radius: .1875rem;
+            width: 9.375rem;
+            height: 9.375rem;
+            box-shadow: .75rem -.75rem .1rem 0 hsla(0, 0%, 0%, .1);
+            margin-bottom: -3rem;
+
+            @include breakpoint-down(small){
+                width: 5rem;
+                height: 5rem;
+            }
+        }
+    }
+
+    .player {
+        flex: 1;
+        margin-left: 1rem;
+        padding-left: 1rem;
+
+        @include breakpoint-down(small){
+            width: 100%;
+            margin-left: -7.5rem;
+            padding-top: 2rem;
+        }
+    }
+}

@@ -16,7 +16,7 @@ body {
     padding: 0px;
     background-color: $white;
     color: $orange;
-    min-height: 300vh;
+    // min-height: 300vh;
 
     @include breakpoint-up(large){
         font-size: $font-lg;

@@ -92,7 +92,6 @@ body {
   padding: 0px;
   background-color: #ffffff;
   color: #FFA500;
-  min-height: 300vh;
 }
 
 @media (min-width: 64em) {
@@ -343,6 +342,122 @@ button:hover, .button:hover {
 
 .header__links a:hover::before {
   opacity: 1;
+}
+
+.podcasts {
+  width: 50rem;
+  margin: 1.875rem auto;
+}
+
+@media (max-width: 39.9375em) {
+  .podcasts {
+    width: 100%;
+    padding: 1.5rem;
+  }
+}
+
+.podcast {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#B87333), to(transparent));
+  background-image: linear-gradient(#B87333, transparent);
+  padding: 1.875rem;
+  border-radius: .1875rem;
+}
+
+.podcast__episode-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  line-height: 1.25;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  color: #A52A2A;
+}
+
+@media (min-width: 40em) {
+  .podcast__episode-title {
+    padding-left: 13.5rem;
+    font-size: 2rem;
+  }
+}
+
+.podcast__show-name {
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  font-size: .6875rem;
+  color: #B87333;
+}
+
+.podcast__show-name i {
+  color: #A0522D;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: capitalize;
+  margin-left: .625rem;
+}
+
+@media (min-width: 40em) {
+  .podcast__show-name {
+    padding-left: 15rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .podcast__show-name {
+    padding-left: 8.5rem;
+  }
+}
+
+.podcast__controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem -1.875rem -1.875rem -1.875rem;
+  padding: 0rem 1.875rem 1.875rem 1.875rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom-left-radius: .1875rem;
+  border-bottom-right-radius: .1875rem;
+}
+
+.podcast .artwork {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  -webkit-transform: translateY(-4.375rem);
+          transform: translateY(-4.375rem);
+}
+
+.podcast .artwork > img {
+  border-radius: .1875rem;
+  width: 9.375rem;
+  height: 9.375rem;
+  -webkit-box-shadow: 0.75rem -0.75rem 0.1rem 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0.75rem -0.75rem 0.1rem 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: -3rem;
+}
+
+@media (max-width: 39.9375em) {
+  .podcast .artwork > img {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+.podcast .player {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+@media (max-width: 39.9375em) {
+  .podcast .player {
+    width: 100%;
+    margin-left: -7.5rem;
+    padding-top: 2rem;
+  }
 }
 
 .hero {
