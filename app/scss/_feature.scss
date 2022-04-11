@@ -4,7 +4,6 @@
         text-align: center;
 
         @include breakpoint-up(large){
-            width: 70%;
             margin-bottom: 3.75rem;
         }
     }
