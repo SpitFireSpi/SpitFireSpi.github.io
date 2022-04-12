@@ -1,16 +1,28 @@
 .podcastcontainer{
-    background-image: linear-gradient($copper, transparent);
+    background-image: linear-gradient($richblue, transparent);
 }
 
 .podcastcontainertwo{
+    background-image: linear-gradient($skyblue, transparent);
     width: 70%;
     margin-left: 7.75rem;
     margin-top: 2.5rem;
-    background-image: linear-gradient($richblue, transparent);
 
     @include breakpoint-down(small){
-        width: 100%;
-        margin-left: 0;
+        width: inherit;
+        margin-left: 0rem;
+    }
+}
+
+.podcastcontainerthree {
+    background-image: linear-gradient($skyblue, transparent);
+    width: 70%;
+    margin-left: 7.75rem;
+    margin-top: 1rem;
+
+    @include breakpoint-down(small){
+        width: inherit;
+        margin-left: 0rem;
     }
 }
 

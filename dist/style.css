@@ -345,22 +345,37 @@ button:hover, .button:hover {
 }
 
 .podcastcontainer {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#B87333), to(transparent));
-  background-image: linear-gradient(#B87333, transparent);
-}
-
-.podcastcontainertwo {
-  width: 70%;
-  margin-left: 7.75rem;
-  margin-top: 2.5rem;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#2B73AD), to(transparent));
   background-image: linear-gradient(#2B73AD, transparent);
 }
 
+.podcastcontainertwo {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#689AAD), to(transparent));
+  background-image: linear-gradient(#689AAD, transparent);
+  width: 70%;
+  margin-left: 7.75rem;
+  margin-top: 2.5rem;
+}
+
 @media (max-width: 39.9375em) {
   .podcastcontainertwo {
-    width: 100%;
-    margin-left: 0;
+    width: inherit;
+    margin-left: 0rem;
+  }
+}
+
+.podcastcontainerthree {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#689AAD), to(transparent));
+  background-image: linear-gradient(#689AAD, transparent);
+  width: 70%;
+  margin-left: 7.75rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 39.9375em) {
+  .podcastcontainerthree {
+    width: inherit;
+    margin-left: 0rem;
   }
 }
 
@@ -482,6 +497,11 @@ button:hover, .button:hover {
     margin-left: -6rem;
     padding-top: 2rem;
   }
+}
+
+.merch {
+  display: -ms-grid;
+  display: grid;
 }
 
 .hero {
