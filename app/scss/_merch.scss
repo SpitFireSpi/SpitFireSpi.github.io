@@ -1,6 +1,75 @@
-.merchandisecontainer {
+.merchcontainer {
+    display: grid;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 1px solid;
+    grid-template-rows: 20rem 20rem;
+    grid-gap: 2.5rem;
+
+    @include breakpoint-up(medium){
+        grid-template-columns: 30.875rem 25.875rem;
+        grid-template-rows: 25rem 0rem;
+        grid-gap: 5rem;
+        margin-bottom: -2rem;
+    }
+
+    @include breakpoint-up(large){
+        grid-template-columns: 25.875rem 25.875rem;
+        grid-gap: 15rem;
+        margin-bottom: -12rem;
+    }
+
 }
 
-.merch {
-    display: grid;
+.merch-1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(/assets/Images/Merch/TeeLogoOnGuitar.png);
+    width: 100%;
+    margin-left: -3rem;
+
+    @include breakpoint-down(small){
+        width: inherit;
+        margin-left: 0rem;
+    }
+
+    @include breakpoint-up(medium){
+        margin-left: -.5rem;
+    }
+
+    @include breakpoint-up(large){
+        margin-left: -.5rem;
+    }
+
+}
+
+.merch-2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(/assets/Images/Merch/ShawnDaughterTeeLogo.png);
+    width: 100%;
+    margin-left: -1.5rem;
+
+    @include breakpoint-down(small){
+        width: inherit;
+        margin-left: 0rem;
+    }
+
+    @include breakpoint-up(medium){
+        margin-left: -4rem;
+    }
+
+    @include breakpoint-up(large){
+        margin-left: -4rem;
+    }
+}
+
+.buy {
+    margin-top: 2rem;
+    margin-left: 9rem;
+    margin-bottom: 2rem;
 }
