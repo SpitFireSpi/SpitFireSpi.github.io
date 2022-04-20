@@ -350,8 +350,8 @@ button:hover, .button:hover {
 }
 
 .podcastcontainertwo {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#689AAD), to(transparent));
-  background-image: linear-gradient(#689AAD, transparent);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2B73AD), to(transparent));
+  background-image: linear-gradient(#2B73AD, transparent);
   width: 70%;
   margin-left: 7.75rem;
   margin-top: 2.5rem;
@@ -365,8 +365,8 @@ button:hover, .button:hover {
 }
 
 .podcastcontainerthree {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#689AAD), to(transparent));
-  background-image: linear-gradient(#689AAD, transparent);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2B73AD), to(transparent));
+  background-image: linear-gradient(#2B73AD, transparent);
   width: 70%;
   margin-left: 7.75rem;
   margin-top: 1rem;
@@ -737,7 +737,7 @@ button:hover, .button:hover {
 }
 
 .feature__img.jl {
-  background-image: url("/assets/Images/Crew/Juan L.png");
+  background-image: url("/assets/Images/Crew/Juan L 2.png");
 }
 
 .feature__title {
