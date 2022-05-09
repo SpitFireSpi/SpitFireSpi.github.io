@@ -24,3 +24,28 @@ btnhamburger.addEventListener('click', function(){
         });
     }
 });
+
+
+
+// playepibtn.addEventListener('click', function(){
+//     console.log('click playepibtn');
+// })
+
+// const mainshowsb = document.querySelector('#mainshow .scrollbox');
+// let mainshowIsScrolling = false;
+
+// function setFade(event) {
+//     if (!mainshowIsScrolling) {
+//         window.requestAnimationFrame(function() {
+//             if (event.target.scrollTop < 160) {
+//                 mainshow.classList.add('off-bottom');
+//             }
+//             else {
+//                 mainshow.classList.remove('off-bottom');
+//             }
+//             mainshowIsScrolling = false;
+//         });
+//         mainshowIsScrolling = true;
+//     }
+// }
+// mainshowsb.addEventListener('scroll', setFade);

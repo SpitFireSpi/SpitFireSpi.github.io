@@ -1,0 +1,38 @@
+#seasons {
+    margin: 1rem;
+}
+
+#seasonslist {
+    position: absolute;
+    padding: .5rem;
+
+    @include breakpoint-down(small){
+        margin-left: 8rem;
+        margin-top: .5rem;
+    }
+}
+
+//.season1 {}
+
+#reviewbonus {
+    margin: 1rem;
+}
+
+#review {
+    position: absolute;
+    padding: .5rem;
+
+    @include breakpoint-down(small){
+        margin-left: 8rem;
+        margin-top: 1.5rem;
+    }
+}
+
+
+// season 1-10episode
+// season 2-10episode
+// season 3-10episode
+// season 4-10episode
+// season 5-10episode
+// bonus episode 3 skits chips/ men victums/xmas cross over
+// incycshow reviews 14 episode

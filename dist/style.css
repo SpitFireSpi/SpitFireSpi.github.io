@@ -361,6 +361,7 @@ button:hover, .button:hover {
   .podcastcontainertwo {
     width: inherit;
     margin-left: 0rem;
+    margin-top: 1.5rem;
   }
 }
 
@@ -369,7 +370,7 @@ button:hover, .button:hover {
   background-image: linear-gradient(#2B73AD, transparent);
   width: 70%;
   margin-left: 7.75rem;
-  margin-top: 1rem;
+  margin-top: 2.5rem;
 }
 
 @media (max-width: 39.9375em) {
@@ -496,6 +497,70 @@ button:hover, .button:hover {
     width: 100%;
     margin-left: -6rem;
     padding-top: 2rem;
+  }
+}
+
+.scrollepi {
+  height: 60vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: #e6e6e6;
+}
+
+@media (max-width: 39.9375em) {
+  .scrollepi {
+    height: 30vh;
+  }
+}
+
+.scrollreview {
+  height: 60vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: #f0f0f0;
+}
+
+@media (max-width: 39.9375em) {
+  .scrollreview {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 64em) {
+  .scrollreview {
+    height: 30vh;
+  }
+}
+
+#seasons {
+  margin: 1rem;
+}
+
+#seasonslist {
+  position: absolute;
+  padding: .5rem;
+}
+
+@media (max-width: 39.9375em) {
+  #seasonslist {
+    margin-left: 8rem;
+    margin-top: .5rem;
+  }
+}
+
+#reviewbonus {
+  margin: 1rem;
+}
+
+#review {
+  position: absolute;
+  padding: .5rem;
+}
+
+@media (max-width: 39.9375em) {
+  #review {
+    margin-left: 8rem;
+    margin-top: 1.5rem;
   }
 }
 

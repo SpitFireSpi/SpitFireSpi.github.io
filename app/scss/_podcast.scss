@@ -11,6 +11,7 @@
     @include breakpoint-down(small){
         width: inherit;
         margin-left: 0rem;
+        margin-top: 1.5rem;
     }
 }
 
@@ -18,7 +19,7 @@
     background-image: linear-gradient($richblue, transparent);
     width: 70%;
     margin-left: 7.75rem;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 
     @include breakpoint-down(small){
         width: inherit;
@@ -125,6 +126,31 @@
     }
 }
 
+.scrollepi {
+    height: 60vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: rgb(230, 230, 230);
+
+    @include breakpoint-down(small){
+        height: 30vh;
+    }
+}
+
+.scrollreview {
+    height: 60vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: rgb(240, 240, 240);
+
+    @include breakpoint-down(small){
+        height: 30vh;
+    }
+
+    @include breakpoint-up(large) {
+        height: 30vh;
+    }
+}
 
 //    #audio-player-container {
 //  position: relative;
