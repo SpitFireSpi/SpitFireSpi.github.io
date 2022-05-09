@@ -360,8 +360,14 @@ button:hover, .button:hover {
 @media (max-width: 39.9375em) {
   .podcastcontainertwo {
     width: inherit;
-    margin-left: 0rem;
-    margin-top: 1.5rem;
+    margin: .5rem .25rem 0 .25rem;
+  }
+}
+
+@media (min-width: 40em) {
+  .podcastcontainertwo {
+    width: inherit;
+    margin: .5rem .5rem 0 7rem;
   }
 }
 
@@ -376,7 +382,14 @@ button:hover, .button:hover {
 @media (max-width: 39.9375em) {
   .podcastcontainerthree {
     width: inherit;
-    margin-left: 0rem;
+    margin: .5rem .25rem 0 .25rem;
+  }
+}
+
+@media (min-width: 40em) {
+  .podcastcontainerthree {
+    width: inherit;
+    margin: .5rem .5rem 0 7rem;
   }
 }
 
@@ -388,7 +401,6 @@ button:hover, .button:hover {
 @media (max-width: 39.9375em) {
   .podcasts {
     width: 100%;
-    padding: 1.5rem;
   }
 }
 
@@ -501,7 +513,7 @@ button:hover, .button:hover {
 }
 
 .scrollepi {
-  height: 60vh;
+  height: 55vh;
   overflow-y: scroll;
   overflow-x: hidden;
   background: #e6e6e6;
@@ -509,12 +521,18 @@ button:hover, .button:hover {
 
 @media (max-width: 39.9375em) {
   .scrollepi {
-    height: 30vh;
+    height: 28vh;
+  }
+}
+
+@media (min-width: 40em) {
+  .scrollepi {
+    height: 34vh;
   }
 }
 
 .scrollreview {
-  height: 60vh;
+  height: 55vh;
   overflow-y: scroll;
   overflow-x: hidden;
   background: #f0f0f0;
@@ -522,18 +540,19 @@ button:hover, .button:hover {
 
 @media (max-width: 39.9375em) {
   .scrollreview {
-    height: 30vh;
+    height: 28vh;
   }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 40em) {
   .scrollreview {
-    height: 30vh;
+    height: 34vh;
   }
 }
 
 #seasons {
-  margin: 1rem;
+  display: -ms-grid;
+  display: grid;
 }
 
 #seasonslist {
@@ -543,13 +562,20 @@ button:hover, .button:hover {
 
 @media (max-width: 39.9375em) {
   #seasonslist {
-    margin-left: 8rem;
-    margin-top: .5rem;
+    margin-left: .5rem;
+    margin-top: .25rem;
+  }
+}
+
+@media (min-width: 40em) {
+  #seasonslist {
+    margin: .5rem 0 0 .5rem;
   }
 }
 
 #reviewbonus {
-  margin: 1rem;
+  display: -ms-grid;
+  display: grid;
 }
 
 #review {
@@ -559,8 +585,14 @@ button:hover, .button:hover {
 
 @media (max-width: 39.9375em) {
   #review {
-    margin-left: 8rem;
-    margin-top: 1.5rem;
+    margin-left: .5rem;
+    margin-top: .25rem;
+  }
+}
+
+@media (min-width: 40em) {
+  #review {
+    margin: .5rem 0 0 .5rem;
   }
 }
 

@@ -1,5 +1,5 @@
 #seasons {
-    margin: 1rem;
+    display: grid;
 }
 
 #seasonslist {
@@ -7,15 +7,18 @@
     padding: .5rem;
 
     @include breakpoint-down(small){
-        margin-left: 8rem;
-        margin-top: .5rem;
+        margin-left: .5rem;
+        margin-top: .25rem;
+    }
+    @include breakpoint-up(medium){
+        margin: .5rem 0 0 .5rem;
     }
 }
 
 //.season1 {}
 
 #reviewbonus {
-    margin: 1rem;
+    display: grid;
 }
 
 #review {
@@ -23,8 +26,11 @@
     padding: .5rem;
 
     @include breakpoint-down(small){
-        margin-left: 8rem;
-        margin-top: 1.5rem;
+        margin-left: .5rem;
+        margin-top: .25rem;
+    }
+    @include breakpoint-up(medium){
+        margin: .5rem 0 0 .5rem;
     }
 }
 

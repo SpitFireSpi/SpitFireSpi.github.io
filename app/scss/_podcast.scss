@@ -10,8 +10,11 @@
 
     @include breakpoint-down(small){
         width: inherit;
-        margin-left: 0rem;
-        margin-top: 1.5rem;
+        margin: .5rem .25rem 0 .25rem;
+    }
+    @include breakpoint-up(medium){
+        width: inherit;
+        margin: .5rem .5rem 0 7rem;
     }
 }
 
@@ -23,7 +26,11 @@
 
     @include breakpoint-down(small){
         width: inherit;
-        margin-left: 0rem;
+        margin: .5rem .25rem 0 .25rem;
+    }
+    @include breakpoint-up(medium){
+        width: inherit;
+        margin: .5rem .5rem 0 7rem;
     }
 }
 
@@ -33,7 +40,6 @@
 
     @include breakpoint-down(small){
         width: 100%;
-        padding: 1.5rem;
     }
 }
 
@@ -127,28 +133,31 @@
 }
 
 .scrollepi {
-    height: 60vh;
+    height: 55vh;
     overflow-y: scroll;
     overflow-x: hidden;
     background: rgb(230, 230, 230);
 
     @include breakpoint-down(small){
-        height: 30vh;
+        height: 28vh;
+    }
+    @include breakpoint-up(medium) {
+        height: 34vh;
     }
 }
 
 .scrollreview {
-    height: 60vh;
+    height: 55vh;
     overflow-y: scroll;
     overflow-x: hidden;
     background: rgb(240, 240, 240);
 
     @include breakpoint-down(small){
-        height: 30vh;
+        height: 28vh;
     }
 
-    @include breakpoint-up(large) {
-        height: 30vh;
+    @include breakpoint-up(medium) {
+        height: 34vh;
     }
 }
 
