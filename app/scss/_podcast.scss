@@ -1,5 +1,6 @@
 .podcastcontainer{
     background-image: linear-gradient($richblue, transparent);
+    margin-bottom: 1rem;
 }
 
 .podcastcontainertwo{
@@ -10,7 +11,7 @@
 
     @include breakpoint-down(small){
         width: inherit;
-        margin: .5rem .25rem 0 .25rem;
+        margin: .5rem .25rem .5rem .25rem;
     }
     @include breakpoint-up(medium){
         width: inherit;
@@ -26,11 +27,11 @@
 
     @include breakpoint-down(small){
         width: inherit;
-        margin: .5rem .25rem 0 .25rem;
+        margin: .5rem .25rem .5rem .25rem;
     }
     @include breakpoint-up(medium){
         width: inherit;
-        margin: .5rem .5rem 0 7rem;
+        margin: .5rem .5rem .5rem 7rem;
     }
 }
 

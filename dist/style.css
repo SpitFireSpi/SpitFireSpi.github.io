@@ -347,6 +347,7 @@ button:hover, .button:hover {
 .podcastcontainer {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#2B73AD), to(transparent));
   background-image: linear-gradient(#2B73AD, transparent);
+  margin-bottom: 1rem;
 }
 
 .podcastcontainertwo {
@@ -360,7 +361,7 @@ button:hover, .button:hover {
 @media (max-width: 39.9375em) {
   .podcastcontainertwo {
     width: inherit;
-    margin: .5rem .25rem 0 .25rem;
+    margin: .5rem .25rem .5rem .25rem;
   }
 }
 
@@ -382,14 +383,14 @@ button:hover, .button:hover {
 @media (max-width: 39.9375em) {
   .podcastcontainerthree {
     width: inherit;
-    margin: .5rem .25rem 0 .25rem;
+    margin: .5rem .25rem .5rem .25rem;
   }
 }
 
 @media (min-width: 40em) {
   .podcastcontainerthree {
     width: inherit;
-    margin: .5rem .5rem 0 7rem;
+    margin: .5rem .5rem .5rem 7rem;
   }
 }
 
